@@ -17,11 +17,14 @@ public class Ejemplo2 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
+        // Random crea numeros aleatorios
         Random aleatorios = new Random();
+        //Arreglo tamaño cinco y posicion maxima 4
         int[] datos = new int[5];
         for(int i = 0; i<=10; i++){
-            int v = aleatorios.nextInt(4);
+            int v = aleatorios.nextInt(5);
             System.out.println(v);
+       //suma cuantas veces se repite la posicion
             datos[v] = datos[v]+1;
         }
         

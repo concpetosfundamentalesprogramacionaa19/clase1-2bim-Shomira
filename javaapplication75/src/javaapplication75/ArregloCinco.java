@@ -24,7 +24,8 @@ public class ArregloCinco {
 
         for (int contador = 0; contador < c.length; contador++) {
             operacion = Math.pow(c[contador],2);
-            System.out.printf("%d\t\t%d\t\t%.2f\n", contador, c[contador], operacion);
+            System.out.printf("%d\t\t%d\t\t%.2f\n", contador, c[contador], 
+                    operacion);
         }
     }
 
