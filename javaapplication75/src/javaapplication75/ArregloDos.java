@@ -19,7 +19,7 @@ public class ArregloDos {
         
         int[] c; // declaramos la variable
         c = new int[12];
-        
+        //Arreglo de tipo cadena
         String[] b = new String[100];
         String[] x = new String[10];
         

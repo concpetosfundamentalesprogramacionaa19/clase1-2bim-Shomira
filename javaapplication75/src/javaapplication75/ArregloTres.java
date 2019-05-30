@@ -21,7 +21,7 @@ public class ArregloTres {
         c = new int[12];
 
         System.out.printf("%s\t\t%s\n", "Indice", "Valor");
-
+     //recorre el arreglo uysando la funcion length que es el tamaño del arreglo
         for (int contador = 0; contador < c.length; contador++) {
             System.out.printf("%d\t\t%d\n", contador, c[contador]);
         }

@@ -16,13 +16,15 @@ public class ArregloCinco {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
-        int[] c = {10, 20, 30, 40}; // declaramos la variable
+        double operacion = 0;
+        //Asigna valores al arreglo y no es necesarioo el new
+        int[] c ={10, 20, 30, 40}; // declaramos la variable tamaño 4
       
-        System.out.printf("%s\t\t%s\n", "Indice", "Valor");
+        System.out.printf("%s\t\t%s\t\t%s", "Indice", "Valor", "Resultado");
 
         for (int contador = 0; contador < c.length; contador++) {
-            System.out.printf("%d\t\t%d\n", contador, c[contador]);
+            operacion = Math.pow(c[contador],2);
+            System.out.printf("%d\t\t%d\t\t%.2f\n", contador, c[contador], operacion);
         }
     }
 
